@@ -2,13 +2,11 @@
 
 DESCRIPTION:
 
-LUTHER is a modern, stylish, free personal website template designed for creative individuals 
-and professionals. It is the perfect template if you wish to build an online presence and create 
-a strong first impression on all your site visitors. Luther will help you craft a personal 
-professional website wherein you can showcase your works, talents, and present yourself on the 
-web in the best possible light. On top of that, the template is versatile and easy to customize 
-so with some modifications and a bit of creativity you even use it as a portfolio site for 
-digital studios or a landing page for your projects.
+ETHOS is a modern and elegant one-page free resume website template. A perfect tool that would 
+help you craft a personal website where you can advertise yourself showcasing your skills, 
+talents, portfolio, and work experiences. It provides you the necessary website elements 
+and features for creating an impressive and beautiful online resume that would capture 
+everyone's attention.
 
 ==================================================================================================
 
@@ -72,21 +70,20 @@ Also, keep your Paypal receipt as proof of payment and your good to go.
 
 SUPPORT:
     
-Since LUTHER is distributed for free, support is not offered. LUTHER is coded according 
+Since ETHOS is distributed for free, support is not offered. ETHOS is coded according 
 to current web standards and we did our best to make the template easy to use and modify.
 If you have minimum web development experience, you can easily modify the template. 
 However, If you're still new to HTML and CSS, I suggest that you visit the 
 following tutorials:
 
- - https://marksheet.io/
+ - https://webdesign.tutsplus.com/courses/30-days-to-learn-html-css
  - http://learn.shayhowe.com/html-css/
 
 These will teach you the essentials of HTML and CSS. In addition, if you want to include
-javascript in your skill-set, you can also check out these tutorials: 
+jQuery in your skill-set, you can also check out these tutorials: 
 
- - https://www.codecademy.com/learn/introduction-to-javascript
- - https://javascript.info/
-
+ - https://code.tutsplus.com/courses/30-days-to-learn-jquery
+ - http://try.jquery.com/
 
 
 ------------------------------------------------------------------------------------------------------ 
@@ -107,8 +104,9 @@ SOURCES AND CREDITS:
 I've used the following resources as listed.
 
 Fonts:
- - Public Sans Font (https://fonts.google.com/specimen/Public+Sans)
- - DM Serif Display (https://fonts.google.com/specimen/DM+Serif+Display)
+ - Martel Font (https://fonts.google.com/specimen/Martel)
+ - Gothis A1 Font (https://fonts.google.com/specimen/Gothic+A1) 
+ - Work Sans Font (https://fonts.google.com/specimen/Work+Sans)
 
 Icons:
  - Iconmonstr (https://iconmonstr.com/)
@@ -117,12 +115,12 @@ Stock Photos and Graphics:
  - Unsplash.com (https://unsplash.com/)
  
 Javascript Files:
- - Anime.js (https://animejs.com/)
- - Swiper (https://swiperjs.com/)
- - MoveTo.js (https://github.com/hsnaydd/moveTo)
- - Prism.js (https://prismjs.com/)
- - Basic Lightbox (https://basiclightbox.electerious.com/)
- - MailtoUI (https://mailtoui.com/)
+ - JQuery (http://jquery.com/)
+ - Modernizr (http://modernizr.com/)
+ - PhotoSwipe (https://photoswipe.com/)
+ - Slick slider (http://kenwheeler.github.io/slick/)
+ - Animate On Scroll (https://michalsnik.github.io/aos/)
+ - Code Prettify (https://github.com/google/code-prettify)
 
 -------------------------------------------------------------------------------------------------------
 
