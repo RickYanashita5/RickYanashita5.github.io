@@ -2,13 +2,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 
 :root {
-  --primary-bg-color: #f7fbfd;
-  --primary-accent: #0c1618;
-  --secondary-accent: #6f1d1b;
+  --primary-bg-color:rgb(0, 0, 0);
+  --primary-accent:rgb(0, 0, 0);
+  --secondary-accent:rgb(0, 0, 0);
 
-  --main-text-color: #0c1618;
-  --supportive-text-color: #242d2f;
-  --gray-text-color: #565a5b;
+  --main-text-color:rgb(255, 255, 255);
+  --supportive-text-color:rgb(196, 242, 253);
+  --gray-text-color:rgb(103, 105, 106);
 
   --white-color: #fff;
   --gray-color: #e9e8e8;
@@ -123,7 +123,7 @@ h5 {
   letter-spacing: 2px;
   line-height: 23px;
   font-weight: 600;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 .white {
@@ -156,7 +156,7 @@ h5 {
   left: 0;
   width: 100%;
   z-index: 1999;
-  background-color: rgba(255, 255, 255, 0.95);
+  background-color: rgba(0, 0, 0, 0);
   padding-top: 0;
   padding-bottom: 0;
   transition: all 0.3s ease-in-out;
@@ -188,7 +188,7 @@ h5 {
 
 .nav-link.active {
   text-decoration: underline;
-  text-decoration-color: var(--secondary-accent);
+  text-decoration-color: var(--main-text-color);
   text-decoration-thickness: 1.2px;
   text-underline-offset: 7px;
 }
@@ -198,6 +198,7 @@ h5 {
   position: relative;
   padding-top: 180px;
   background-color: var(--primary-bg-color);
+  padding-bottom: 160px;
 }
 
 .hero-row {
@@ -230,6 +231,7 @@ h5 {
 .hero-heading-subtitle {
   font-size: clamp(1.125rem, 1.054rem + 0.36vw, 1.375rem);
   font-weight: 400;
+  color: var(--gray-text-color)
 }
 
 .hero-img {
@@ -276,15 +278,16 @@ h5 {
 /* About section */
 .about {
   padding: 7rem 0;
+  background-color: var(--primary-bg-color);
 }
 
 .about-row {
-  display: grid;
-  grid-template-columns: 1.3fr 1fr;
+  display: flex;
   justify-content: center;
-  gap: 90px;
+  text-align: center; 
+  /* gap: 90px; */
   margin-bottom: 80px;
-  color: var(--supportive-text-color);
+  color: var(--main-text-color);
 }
 
 .about-descr {
@@ -367,14 +370,39 @@ h5 {
   text-align: center;
 }
 
-/* Works */
+/* Design Sprints */
 .projects {
   padding: 7rem 0;
   background-color: var(--primary-bg-color);
+  margin: 0 auto; 
+  padding: 0 20px; 
 }
 
 .projects-title {
   text-align: center;
+}
+
+.projects-ds-title {
+  font-size: 36px;
+  font-weight: 600;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.projects-ds-description {
+  margin-bottom: 20px; 
+}
+
+.design-doc-link {
+  color:rgb(71, 154, 255); 
+  text-decoration: underline;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.design-doc-link:hover {
+  color:rgb(117, 172, 255); 
+  text-decoration: underline;
 }
 
 .projects-row {
@@ -430,7 +458,7 @@ h5 {
 }
 
 .project-mask p {
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-size: 11px;
   letter-spacing: 1.5px;
   font-weight: 400;
@@ -449,19 +477,11 @@ h5 {
   opacity: 0;
 }
 
-.project-mask p {
-  text-transform: uppercase;
-  font-size: 11px;
-  letter-spacing: 1.5px;
-  font-weight: 400;
-  margin-top: 0;
-  text-align: left;
-}
-
 /* Contact */
 .contact {
   padding: 7rem 0;
   text-align: center;
+  background-color: var(--primary-bg-color);
 }
 
 .contact-content {
