@@ -297,6 +297,21 @@ h5 {
   margin-bottom: 10px;
 }
 
+.image-row {
+  display: flex;
+  flex-direction: row;  
+  flex-wrap: wrap;    
+  justify-content: center; 
+  gap: 20px; 
+}              
+
+.image-row-image {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  object-fit: contain; 
+}
+
 .skill {
   position: relative;
   display: block;
